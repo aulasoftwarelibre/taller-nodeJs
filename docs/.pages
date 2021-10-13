@@ -1,3 +1,9 @@
 arrange:
   - index.md
-  - other.md
+  - introduccion.md
+  - instalacion.md
+  - crearProyecto.md
+  - packageJson.md
+  - paquetesNPM.md
+  - typescript.md
+

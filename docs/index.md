@@ -1,4 +1,3 @@
-# Plantilla de talleres
 # Curso NodeJS
 
 ![Aula Software Libre de la UCO](images/logo-cuadrado-invertido.svg)
@@ -6,12 +5,11 @@
 Este taller forma parte de las actividades del [Aula de Software Libre de la
 Universidad de Córdoba](https://www.uco.es/aulasoftwarelibre).
 
-El contenido de este taller se basa en experiencia propia propia y en las referencias que pueden encontrarse en la seccion de [Referencias]() 
+El contenido de este taller se basa en experiencia propia propia y en las referencias que pueden encontrarse en la seccion de [Referencias](https://aulasoftwarelibre.github.io/taller-nodeJs/referencias) 
 
 ## Contenidos
 
 * ¿Qué es NodeJS y para que nos sirve?
-    - Introducción ¿Qué y para qué?
 * Instalación de Node y NPM
 * Crear nuestro primer proyecto en NodeJS
 * Todo lo que debes saber del archivo package.json
