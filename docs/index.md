@@ -2,6 +2,8 @@
 
 ![Aula Software Libre de la UCO](images/logo-cuadrado-invertido.svg)
 
+# Work In Progress
+![Working](https://forum.armbian.com/uploads/monthly_2019_02/banner.thumb.png.614f253c1bfac26d6c6cdadb84c1ed15.png)
 Este taller forma parte de las actividades del [Aula de Software Libre de la
 Universidad de Córdoba](https://www.uco.es/aulasoftwarelibre).
 
