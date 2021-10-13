@@ -1,0 +1,3 @@
+[console_scripts]
+mkdocs2pandoc = mkdocs_pandoc.cli.mkdocs2pandoc:main
+

@@ -1,9 +1,32 @@
 # Plantilla de talleres
+# Curso NodeJS
 
 ![Aula Software Libre de la UCO](images/logo-cuadrado-invertido.svg)
 
-Esta plantilla se puede usar para documentar los talleres y actividades del [Aula de Software Libre de la
+Este taller forma parte de las actividades del [Aula de Software Libre de la
 Universidad de Córdoba](https://www.uco.es/aulasoftwarelibre).
+
+El contenido de este taller se basa en experiencia propia propia y en las referencias que pueden encontrarse en la seccion de [Referencias]() 
+
+## Contenidos
+
+* ¿Qué es NodeJS y para que nos sirve?
+    - Introducción ¿Qué y para qué?
+* Instalación de Node y NPM
+* Crear nuestro primer proyecto en NodeJS
+* Todo lo que debes saber del archivo package.json
+* Paquetes NPM ¡Reutiliza los avances de la comunidad!
+    - Ejemplos de paquetes NPM
+    > nodemon / pm2 / fs (fs-extra) / dotenv / shelljs / colors
+    - Frameworks, el potencial de JavaScript
+    > Angular / React / Vue / Express
+- Mencion especial al paquete de TypeScript
+
+## Agradecimientos
+
+Este curso ha sido impartido por:
+
+* [Adrián Leiva](https://github.com/leivaa21)
 
 ## Licencia
 

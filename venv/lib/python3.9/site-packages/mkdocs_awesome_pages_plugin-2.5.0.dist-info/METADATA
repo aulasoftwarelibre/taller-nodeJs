@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: mkdocs-awesome-pages-plugin
+Version: 2.5.0
+Summary: An MkDocs plugin that simplifies configuring page titles and their order
+Home-page: https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin/
+Author: Lukas Geiter
+Author-email: info@lukasgeiter.com
+License: MIT
+Keywords: mkdocs python markdown wiki
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
+Requires-Dist: mkdocs (>=1)
+Requires-Dist: wcmatch (>=7)
+
+The awesome-pages plugin allows you to customize how your pages show up the navigation of your MkDocs without having to configure the full structure in your ``mkdocs.yml``. It gives you detailed control using a small configuration file directly placed in the relevant directory of your documentation. See `Github <https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin>`_ or the README.md for more details.
+
+

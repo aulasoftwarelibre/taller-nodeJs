@@ -1,0 +1,1 @@
+mkdocs_awesome_pages_plugin
