@@ -1,4 +1,4 @@
-# Curso NodeJS
+# Taller de NodeJS
 
 ![Aula Software Libre de la UCO](images/logo-cuadrado-invertido.svg)
 
