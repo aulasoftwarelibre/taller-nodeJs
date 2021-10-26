@@ -7,9 +7,11 @@ Universidad de Córdoba](https://www.uco.es/aulasoftwarelibre).
 
 El contenido de este taller se basa en experiencia propia propia y en las referencias que pueden encontrarse en la seccion de [Referencias](https://aulasoftwarelibre.github.io/taller-nodeJs/referencias)
 
-!! Este taller no debe de verse como un curso de programacion. No vas a aprender a programar JavaScript o TypeScript en este taller.
+[!WARNING]
+Este taller no debe de verse como un curso de programacion. No vas a aprender a programar JavaScript o TypeScript en este taller.
 
-! Será introductorio a la herramienta node para que después de tener estos conocimientos puedas utilizar la herramienta en tus propios desarollos.
+[!NOTE]
+Será introductorio a la herramienta node para que después de tener estos conocimientos puedas utilizar la herramienta en tus propios desarollos.
 
 ## Contenidos
 
