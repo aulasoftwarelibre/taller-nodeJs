@@ -20,7 +20,8 @@ Y para ejecutar el script utilizaremos `npm run Nombre`.
 
 ### npm start, stop & restart
 
-Node reserva los scripts start, restart y stop por lo que podremos utilizarlos sin run, es decir `npm start || npm stop || npm restart`.
+Node reserva los scripts start, restart y stop por lo que podremos utilizarlos sin run, es decir</br>
+`npm start || npm stop || npm restart`.
 
 ### Scripts pre y post
 
