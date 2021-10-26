@@ -1,5 +1,7 @@
 # Instalación de Node y NPM
 
+## Instalacion
+
 Para instalar nodeJs en linux, podremos instalarlo mediante apt o pacman sin problemas.
 
 En Ubuntu o cualquier distro con apt utilizaremos</br>
@@ -14,8 +16,13 @@ Para comprobar la version que tenemos de node o npm podremos utilizar los comand
 `node -v` o `node --version`</br>
 `npm -v` o `npm --version`
 
+## Desinstalacion
+
 Para desinstalar node y nom solo tendremos que utlizar el siguiente comando </br>
 `sudo apt-get remove nodejs` o  `sudo pacman -R nodejs`</br>
+
+## Controla que version exacta usas con NVM
+
 Si quisieramos poder cambiar la version de node en cualquier momento podemos utilizar la herramienta nvm
 
 Para instalar nvm necesitaremos previamente wget</br>
