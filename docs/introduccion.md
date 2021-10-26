@@ -15,11 +15,3 @@ Una aplicacion de Node utilizará un solo proceso, sin utilizar un nuevo hilo pa
 Node es una tecnologia muy joven, al diferencia de JavaScript que surgio hace 25 años o la Web que surgio hace ya 32 años...
 
 Node surgio hace 12 años, en 2009, de la mano de Ryan Dahl y fue impulsado por la empresa Joyent.
-
-## Ejemplo de aplicacion
-
-Un ejemplo de una aplicacion node podria ser el siguiente, donde se crea un servidor http.
-![codigo-servidor](https://i.gyazo.com/0c3e570ccd5b23769240305f02cd36ef.png)</br>
-
-Esta seria la salida que tendriamos en localhost.
-![vista-servidor](https://i.gyazo.com/d3848a54b8294617b3a71993976d4e18.png)</br>
