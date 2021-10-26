@@ -40,6 +40,8 @@ Además tambien podremos setear scripts que se ejecuten siempre antes o despues 
 
 De esta forma, al ejecutar `npm run Nombre` se ejecutará preNombre, Nombre y postNombre en ese orden.
 
+! No es necesario crear un pre y post de cada script, de hecho podremos tener scripts con solo pre, con solo post, con ambos o con ninguno de los dos!
+
 ## Dependencias
 
 Que las dependencias esten reflejadas en el package.json nos permitirá descargar un proyecto sin sus dependencias instaladas (sin tener la carpeta /node_modules) utilizando `npm install`, lo que nos dará una salida similar a esta:</br>
