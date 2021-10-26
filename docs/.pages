@@ -6,4 +6,5 @@ arrange:
   - packageJson.md
   - paquetesNPM.md
   - typescript.md
+  - referencias.md
 
