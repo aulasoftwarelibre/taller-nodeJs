@@ -2,7 +2,8 @@
 
 Como mencion especial, decir que NodeJS tambien es compatible con TypeScript, por lo que podremos desarrollar nuestros proyectos de manera segura y tipada con typescript y luego correrlos en un entorno de nodejs como si de javascript se tratase.
 
-! Algunos paquetes npm estan 100% pensados para JavaScript y no soportarán el tipado de typescript, pero una gran cantidad de paquetes si lo soportarán!
+!!! info
+    Algunos paquetes npm estan 100% pensados para JavaScript y no soportarán el tipado de typescript, pero una gran cantidad de paquetes si lo soportarán!
 
 ## Instalar TypeScript
 

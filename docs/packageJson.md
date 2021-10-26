@@ -40,7 +40,8 @@ Además tambien podremos setear scripts que se ejecuten siempre antes o despues 
 
 De esta forma, al ejecutar `npm run Nombre` se ejecutará preNombre, Nombre y postNombre en ese orden.
 
-! No es necesario crear un pre y post de cada script, de hecho podremos tener scripts con solo pre, con solo post, con ambos o con ninguno de los dos!
+!!! info
+    No es necesario crear un pre y post de cada script, de hecho podremos tener scripts con solo pre, con solo post, con ambos o con ninguno de los dos!
 
 ## Dependencias
 

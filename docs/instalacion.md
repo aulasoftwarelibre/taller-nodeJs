@@ -2,7 +2,8 @@
 
 ## Instalacion
 
-!! Cada distribucion de linux es un mundo, aqui solo veremos como instalarlo en un equipo con el gestor de paquetes apt o con el gestor de paquetes pacman, aunque será muy similar la instalación en cualquier equipo linux.
+!!! warning
+    Cada distribucion de linux es un mundo, aqui solo veremos como instalarlo en un equipo con el gestor de paquetes apt o con el gestor de paquetes pacman, aunque será muy similar la instalación en cualquier equipo linux.
 
 Para instalar nodeJs en linux, podremos instalarlo mediante apt o pacman sin problemas.
 

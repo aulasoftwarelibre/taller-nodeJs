@@ -6,7 +6,8 @@
 
 [NodeJs](https://nodejs.org) es una herramienta que nos brinda la posibilidad de correr JavaScript en cualquier plataforma, lo que nos permite utilizar JS en cualquier tipo de proyecto gracias a esta herramienta.
 
-!! NodeJS no es un lenguaje de programacion, es una herramienta que nos permitirá llevar JavaScript a otro nivel!
+!!! warning
+    NodeJS no es un lenguaje de programacion, es una herramienta que nos permitirá llevar JavaScript a otro nivel!
 
 NodeJs corre con el motor de JavaScript V.8, el nucleo de google chrome, esto ayuda a node a tener un muy alto rendimiento.
 

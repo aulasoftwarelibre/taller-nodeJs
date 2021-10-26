@@ -23,9 +23,12 @@ Dentro de estos toda esta cantidad de librerias o paquetes, podremos distinguir 
 
 ## Paquetes orientados a hacer una aplicacion web más especifica - FrameWorks
 
-!! Una aplicacion web no tiene por que significar siempre pagina web.
+!!! warning
+    Una aplicacion web no tiene por que significar siempre pagina web.
 
-! Discord es una aplicacion web hecha en React por ejemplo! Esto es gracias a que node y sus frameworks pueden hacer que entornos web funcionen de forma interna en tu ordenador y no necesiten un buscador web!
+!!! info
+    Discord es una aplicacion web hecha en React por ejemplo! Esto es gracias a que node y sus frameworks pueden hacer que entornos web funcionen de forma interna en tu ordenador y no necesiten un buscador web!
+
 
 ### Frontend FrameWorks
 
