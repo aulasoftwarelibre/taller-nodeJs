@@ -1,6 +1,8 @@
-# Taller de NodeJS
+# Plantilla de talleres
 
-![Aula Software Libre de la UCO](images/logo-cuadrado-invertido.svg)
+<div align="center">
+    <img width="200" src="/docs/images/logoasl.png" alt="Aula Software Libre de la UCO">
+</div>
 
 <div align="center">
 
@@ -8,9 +10,6 @@
 
 </div>
 
-## Work In Progress
-
-![Working](https://forum.armbian.com/uploads/monthly_2019_02/banner.thumb.png.614f253c1bfac26d6c6cdadb84c1ed15.png)
 Este taller forma parte de las actividades del [Aula de Software Libre de la
 Universidad de Córdoba](https://www.uco.es/aulasoftwarelibre).
 
