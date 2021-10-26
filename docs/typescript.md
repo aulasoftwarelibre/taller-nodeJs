@@ -5,6 +5,7 @@ Como mencion especial, decir que NodeJS tambien es compatible con TypeScript, po
 ## Instalar TypeScript
 
 Para instalar typescript de manera global en nuestro PC utilizaremos el comando</br>
+
     $ sudo npm typescript -g
 
 ## Crear un proyecto en NodeJs utilizando Ts
@@ -12,7 +13,9 @@ Para instalar typescript de manera global en nuestro PC utilizaremos el comando<
 Primero crearemos nuestro proyecto de node con `npm init`</br>
 Una vez tengamos el proyecto de node, inicializaremos nuestro proyecto</br>
 de typescript con `tsc --init`
+
     $ npm init
+
     $ tsc --init
 
 Esto nos creara el archivo de configuracion de typescript `tsconfig.json`</br>
