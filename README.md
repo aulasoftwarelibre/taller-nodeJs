@@ -1,8 +1,6 @@
-# Plantilla de talleres
+# Taller de NodeJS
 
-<div align="center">
-    <img width="200" src="/docs/images/logoasl.png" alt="Aula Software Libre de la UCO">
-</div>
+![Aula Software Libre de la UCO](images/logo-cuadrado-invertido.svg)
 
 <div align="center">
 
@@ -10,49 +8,37 @@
 
 </div>
 
-Esta plantilla se puede usar para documentar los talleres y actividades del [Aula de Software Libre de la Universidad de Córdoba](https://www.uco.es/aulasoftwarelibre).
+## Work In Progress
 
-Simplemente usa el botón "Use this template" en vez de clonar el repositorio desde Github.
+![Working](https://forum.armbian.com/uploads/monthly_2019_02/banner.thumb.png.614f253c1bfac26d6c6cdadb84c1ed15.png)
+Este taller forma parte de las actividades del [Aula de Software Libre de la
+Universidad de Córdoba](https://www.uco.es/aulasoftwarelibre).
 
-Una vez creado el repositorio siga las siguientes instrucciónes para configurar el entorno: 
+El contenido de este taller se basa en experiencia propia propia y en las referencias que pueden encontrarse en la seccion de [Referencias](https://aulasoftwarelibre.github.io/taller-nodeJs/referencias)
 
-1º Clonar el repositorio en tu equipo local introduciendo el siguiente comando en la consola:
+## Contenidos
 
-    git clone https://github.com/tu-nombre-de-usuario/nombre-del-repositorio-creado
+* ¿Qué es NodeJS y para que nos sirve?
+* Instalación de Node y NPM
+* Crear nuestro primer proyecto en NodeJS
+* Todo lo que debes saber del archivo package.json
+* Paquetes NPM ¡Reutiliza los avances de la comunidad!
 
-2º Accede a la carpeta desde la consola:
+> * Ejemplos de paquetes NPM
+>
+> > nodemon / pm2 / fs (fs-extra) / dotenv / shelljs
+>
+> * Frameworks, el potencial de JavaScript
+>
+> > Angular / React / Vue / Express
 
-    cd taller-de-introduccion-a-linux/
+* Mencion especial al paquete de TypeScript
 
-3º Configura el entorno para ello instalamos pip un gestor de paquetes de python:
+## Agradecimientos
 
-    sudo apt-get install python3-pip
-    
-4º Instalamos virtualenv que nos permitirá generar un entorno virtual con los requisitos necesarios y que no entre en conflicto con otros proyectos:
+Este curso ha sido impartido por:
 
-    sudo pip3 install virtualenv  
-
-5º Creamos el entorno virtual:
-
-    python3 -m venv venv 
-    
-6º Accedemos al entorno virtual:
-
-    source venv/bin/activate 
-
-7º Instalamos los requisitos:
-
-    pip install -r requirements.txt 
-
-8º Levantamos el "servidor" de mkdocs para ver los cambios en tiempo real:
-
-    mkdocs serve  
-
-Tras esto recibiras una salida por consola con una ip a tu localhost como esta:
-
-    Serving on http://127.0.0.1:8000/tu-nombre-de-usuario/nombre-del-repositorio-creado/
-
-Simplemente pulsa Crtl y haz click y te redireccionará al curso. Ahora solo tienes que modificar los ficheros .md haciendo uso del lenguaje markdown.
+* [Adrián Leiva](https://github.com/leivaa21)
 
 ## Licencia
 
