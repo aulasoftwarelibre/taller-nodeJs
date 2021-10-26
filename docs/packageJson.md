@@ -16,12 +16,15 @@ Para crear un script con npm solo tendremos que añadirlo al package.json en la 
 
 `"Nombre": "comando a ejecutar"`</br>
 
-Y para ejecutar el script utilizaremos `npm run Nombre`.
+Y para ejecutar el script utilizaremos:
+    $ npm run Nombre
 
 ### npm start, stop & restart
 
 Node reserva los scripts start, restart y stop por lo que podremos utilizarlos sin run, es decir</br>
-`npm start || npm stop || npm restart`.
+    $ npm start
+    $ npm stop
+    $ npm restart
 
 ### Scripts pre y post
 

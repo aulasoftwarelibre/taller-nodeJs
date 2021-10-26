@@ -38,9 +38,9 @@ Dentro de estos toda esta cantidad de librerias o paquetes, podremos distinguir 
 ## Instalacion de paquetes NPM
 
 Para instalar un paquete de npm tan solo tendremos que utilizar el comando </br>
-`npm install nombre`.</br>
+    $ npm install nombre
 Si queremos instalar un paquete de manera global en nuestro equipo utilizaremos </br>
-`npm install nombre -g`</br>
+    $ npm install nombre -g
 
 Una vez instalemos algun paquete npm aparecerá una carpeta `./node_modules` en nuestro proyecto y se registrará el modulo utilizado en nuestro fichero `package.json`.</br>
 
