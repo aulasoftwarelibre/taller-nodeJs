@@ -2,12 +2,13 @@
 
 ![Aula Software Libre de la UCO](images/logo-cuadrado-invertido.svg)
 
-# Work In Progress
+## Work In Progress
+
 ![Working](https://forum.armbian.com/uploads/monthly_2019_02/banner.thumb.png.614f253c1bfac26d6c6cdadb84c1ed15.png)
 Este taller forma parte de las actividades del [Aula de Software Libre de la
 Universidad de Córdoba](https://www.uco.es/aulasoftwarelibre).
 
-El contenido de este taller se basa en experiencia propia propia y en las referencias que pueden encontrarse en la seccion de [Referencias](https://aulasoftwarelibre.github.io/taller-nodeJs/referencias) 
+El contenido de este taller se basa en experiencia propia propia y en las referencias que pueden encontrarse en la seccion de [Referencias](https://aulasoftwarelibre.github.io/taller-nodeJs/referencias)
 
 ## Contenidos
 
@@ -16,11 +17,16 @@ El contenido de este taller se basa en experiencia propia propia y en las refere
 * Crear nuestro primer proyecto en NodeJS
 * Todo lo que debes saber del archivo package.json
 * Paquetes NPM ¡Reutiliza los avances de la comunidad!
-    - Ejemplos de paquetes NPM
-    > nodemon / pm2 / fs (fs-extra) / dotenv / shelljs / colors
-    - Frameworks, el potencial de JavaScript
-    > Angular / React / Vue / Express
-- Mencion especial al paquete de TypeScript
+
+> * Ejemplos de paquetes NPM
+>
+> > nodemon / pm2 / fs (fs-extra) / dotenv / shelljs
+>
+> * Frameworks, el potencial de JavaScript
+>
+> > Angular / React / Vue / Express
+
+* Mencion especial al paquete de TypeScript
 
 ## Agradecimientos
 
