@@ -17,4 +17,6 @@ Una aplicacion de Node utilizará un solo proceso, sin utilizar un nuevo hilo pa
 
 Node es una tecnologia muy joven, al diferencia de JavaScript que surgio hace 25 años o la Web que surgio hace ya 32 años...
 
-Node surgio hace 12 años, en 2009, de la mano de Ryan Dahl y fue impulsado por la empresa Joyent.
+Node surgio hace 12 años, en 2009, de la mano de Ryan Dahl. En enero de 2010 un gestor de paquetes para nodejs apareció, este seria npm.
+
+NodeJS en un principio solo era soportado por sistemas LINUX y MAC OS X pero en 2011 Microsoft y Joyent se encargaron de traer node a Windows.
