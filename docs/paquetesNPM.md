@@ -63,37 +63,37 @@ Para instalarlo utilizaremos `npm install shelljs`</br>
 
 De esta forma en nuestro fichero package.json quedará registrado nuestra dependencia</br>
 
-    ```json
-    {
-        "name": "mynewapp",
-        "version": "1.0.0",
-        "description": "Esto es una descripcion",
-        "main": "index.js",
-        "scripts": {
-          "test": "test \n"""
-        },
-        "keywords": [
-          "ejemplo",
-          "tallernodejs"
-        ],
-        "author": "leivaa21",
-        "license": "ISC",
-        "dependencies":{
-            "shelljs": "^0.8.4"
-        }
+```json
+{
+    "name": "mynewapp",
+    "version": "1.0.0",
+    "description": "Esto es una descripcion",
+    "main": "index.js",
+    "scripts": {
+      "test": "test \n"""
+    },
+    "keywords": [
+      "ejemplo",
+      "tallernodejs"
+    ],
+    "author": "leivaa21",
+    "license": "ISC",
+    "dependencies":{
+        "shelljs": "^0.8.4"
     }
-    ```
+}
+```
 
 Para el ejemplo tenemos este pequeño programa que creara una carpeta, la copiará y pondra dos mensajes por consola.</br>
 
-    ```js
-    const shelljs = require('shelljs')
+```js
+const shelljs = require('shelljs')
 
-    shelljs.echo("Creamos una carpeta de ejemplo y una copia de seguridad")
-    shelljs.mkdir("../CarpetaDeEjemplo")
-    shelljs.cp("-R", "../CarpetaDeEjemplo", "../CopiaDeSeguridad")
-    shelljs.echo("He terminado")
-    ```
+shelljs.echo("Creamos una carpeta de ejemplo y una copia de seguridad")
+shelljs.mkdir("../CarpetaDeEjemplo")
+shelljs.cp("-R", "../CarpetaDeEjemplo", "../CopiaDeSeguridad")
+shelljs.echo("He terminado")
+```
 
 Al ejecutar este codigo obtendremos esta salida por consola</br>
 
