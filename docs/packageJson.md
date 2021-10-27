@@ -3,10 +3,63 @@
 El archivo `package.json` nos servirá de gran ayuda en nuestro proyecto, nos permitirá crear scripts y controlar mucho mejor nuestro proyecto.
 
 Al iniciar nuestro proyecto, nuestro package.json se verá algo parecido a esto:</br>
-![ejemploPkgJson](https://i.gyazo.com/e03cf8cffc88eb20b673e4272f0d5caa.png)</br>
+
+```json
+{
+  "name": "mynewapp",
+  "version": "1.0.0",
+  "description": "Esto es una descripcion",
+  "main": "index.js",
+  "scripts": {
+    "test": "test \n"""
+  },
+  "keywords": [
+    "ejemplo",
+    "tallernodejs"
+  ],
+  "author": "leivaa21",
+  "license": "ISC"
+}
+
+```
+
+//![ejemploPkgJson](https://i.gyazo.com/e03cf8cffc88eb20b673e4272f0d5caa.png)</br>
 
 Un ejemplo de package.json más trabajado podria ser el siguiente.</br>
-![ejemploPkgJsonDiscordJS](https://i.gyazo.com/b8cf2f20894377c428da0758260eb989.png)</br>
+
+```json
+{
+  "name": "leivaastdio",
+  "version": "1.0.0",
+  "description": "This is a bot developed for administrate a discord server. Made while learning about JS and some libraries. By Leivaa",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "pm2 flush LeivaaDiscordJS && pm2 start src/index.js --name LeivaaDiscordJS",
+    "restart": "npm stop && npm start",
+    "dev": "pm2 flush LeivaaDiscordJS && pm2 start src/index.js --name LeivaaDiscordJS --watch && npm run logs",
+    "stop": "pm2 stop LeivaaDiscordJS && pm2 delete LeivaaDiscordJS",
+    "logs": "pm2 logs --name LeivaDiscordJS",
+    "status": "pm2 status --name LeivaDiscordJS",
+    "list": "pm2 list"
+  },
+  "keywords": [],
+  "author": "Leivaa21",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "emoji-regex": "^10.0.0",
+    "esm": "^3.2.25",
+    "fs": "0.0.1-security",
+    "pm2": "^5.1.2",
+    "replace-json-property": "^1.7.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
+```
+
+//![ejemploPkgJsonDiscordJS](https://i.gyazo.com/b8cf2f20894377c428da0758260eb989.png)</br>
 
 Como podemos ver, el package.json será el archivo donde node guardará toda la información sobre nuestro proyecto, asi como sus dependencias, licencia, autor, scripts, etc...</br>
 
