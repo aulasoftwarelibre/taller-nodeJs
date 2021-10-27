@@ -29,7 +29,6 @@ Dentro de estos toda esta cantidad de librerias o paquetes, podremos distinguir 
 !!! info
     Discord es una aplicacion web hecha en React por ejemplo! Esto es gracias a que node y sus frameworks pueden hacer que entornos web funcionen de forma interna en tu ordenador y no necesiten un buscador web!
 
-
 ### Frontend FrameWorks
 
 > * **React.Js**
@@ -64,11 +63,37 @@ Para instalarlo utilizaremos `npm install shelljs`</br>
 
 De esta forma en nuestro fichero package.json quedará registrado nuestra dependencia</br>
 
-![EjemploDependencia](https://i.gyazo.com/09d4fb5914e5b20db0aeb38c05bf526f.png)</br>
+    ```json
+    {
+        "name": "mynewapp",
+        "version": "1.0.0",
+        "description": "Esto es una descripcion",
+        "main": "index.js",
+        "scripts": {
+          "test": "test \n"""
+        },
+        "keywords": [
+          "ejemplo",
+          "tallernodejs"
+        ],
+        "author": "leivaa21",
+        "license": "ISC",
+        "dependencies":{
+            "shelljs": "^0.8.4"
+        }
+    }
+    ```
 
 Para el ejemplo tenemos este pequeño programa que creara una carpeta, la copiará y pondra dos mensajes por consola.</br>
 
-![EjemploPrograma](https://i.gyazo.com/70e4d5f4a5d320cae47052bd44f741aa.png)</br>
+    ```js
+    const shelljs = require('shelljs')
+
+    shelljs.echo("Creamos una carpeta de ejemplo y una copia de seguridad")
+    shelljs.mkdir("../CarpetaDeEjemplo")
+    shelljs.cp("-R", "../CarpetaDeEjemplo", "../CopiaDeSeguridad")
+    shelljs.echo("He terminado")
+    ```
 
 Al ejecutar este codigo obtendremos esta salida por consola</br>
 

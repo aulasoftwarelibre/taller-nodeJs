@@ -27,12 +27,34 @@ Utilizaremos como directorio de salida por ejemplo el directorio /build, para el
 `"outDir": "./build"`</br>
 
 Y configuraremos algunas cosas del `package.json`:</br>
-![pkgTsc](https://i.gyazo.com/776eaf866240a33fc788854082702815.png)
+
+    ```json
+    {
+      "name": "ejemplo2",
+      "version": "1.0.0",
+      "description": "",
+      "main": "build/index.js",
+      "scripts": {
+        "prestart": "tsc -b",
+        "start": "node build/index.js"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC"
+    }
+    ```
 
 De esta forma cuando podremos programar nuestra aplicacion utilizando typescript y cuando ejecutemos npm start se autocompilara.
 
 Este seria el codigo en index.ts por ejemplo:
-![codigoEjemploTs](https://i.gyazo.com/6883cbd5290ffb475caa257f73846999.png)
+
+    ```ts
+    let num:number;
+    
+    for(num = 0 ; num < 10; num++ ){
+        console.log(num);
+    }
+    ```
 
 Y esta seria la salida de consola al ejecutar `npm start`:
 ![ejemploTs](https://i.gyazo.com/4efe791eff370b2c349ed9f0e57855c7.png)

@@ -23,8 +23,6 @@ Al iniciar nuestro proyecto, nuestro package.json se verá algo parecido a esto:
 
 ```
 
-//![ejemploPkgJson](https://i.gyazo.com/e03cf8cffc88eb20b673e4272f0d5caa.png)</br>
-
 Un ejemplo de package.json más trabajado podria ser el siguiente.</br>
 
 ```json
@@ -58,8 +56,6 @@ Un ejemplo de package.json más trabajado podria ser el siguiente.</br>
   }
 }
 ```
-
-//![ejemploPkgJsonDiscordJS](https://i.gyazo.com/b8cf2f20894377c428da0758260eb989.png)</br>
 
 Como podemos ver, el package.json será el archivo donde node guardará toda la información sobre nuestro proyecto, asi como sus dependencias, licencia, autor, scripts, etc...</br>
 

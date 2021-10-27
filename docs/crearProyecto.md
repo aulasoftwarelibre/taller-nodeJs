@@ -19,7 +19,23 @@ Otra opcion que tenemos será utilizar la opcion -y junto a npm init, lo que gen
 ## Ejemplo de aplicacion
 
 Un ejemplo de una aplicacion node podria ser el siguiente, donde se crea un servidor http.
-![codigo-servidor](https://i.gyazo.com/8f18967acb079a105c97456efe1e2b12.png)</br>
+
+    ```js
+    const http = require('http')
+
+    const hostname = '127.0.0.1'
+    const port = 3000
+
+    const server = http.createServer( (req, res ) => {
+        res.statusCode = 200
+        res.setHeader('Content-Type', 'text-plain')
+        res.end('Este es mi primer servidor en node!\n')
+    })
+
+    server.listen( port, hostname, () => {
+        console.log(`Server runnint at https://${hostname}:${port}/`)
+    })
+    ```
 
 Esta seria la salida que tendriamos en localhost.
 ![vista-servidor](https://i.gyazo.com/d3848a54b8294617b3a71993976d4e18.png)</br>
