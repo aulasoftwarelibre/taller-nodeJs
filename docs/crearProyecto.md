@@ -1,4 +1,4 @@
-# Crear nuestro primer proyecto en NodeJS
+# Crear nuestro primer proyecto en NodeJs
 
 ## Inicializar un proyecto
 
@@ -18,7 +18,7 @@ Otra opcion que tenemos será utilizar la opcion -y junto a npm init, lo que gen
 
 ## Ejemplo de aplicacion
 
-Un ejemplo de una aplicacion node podria ser el siguiente, donde se crea un servidor http.
+Un ejemplo de una aplicación node podria ser el siguiente, donde se crea un servidor http.
 
 ```js
 

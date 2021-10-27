@@ -1,8 +1,8 @@
 # Todo lo que debes saber del archivo package.json
 
-El archivo `package.json` nos servirá de gran ayuda en nuestro proyecto, nos permitirá crear scripts y controlar mucho mejor nuestro proyecto.
+El archivo `package.json` nos servirá de gran ayuda en cualquier proyecto, nos permitirá crear scripts y controlar mucho mejor este mismo.
 
-Al iniciar nuestro proyecto, nuestro package.json se verá algo parecido a esto:</br>
+Al iniciar un proyecto, nuestro package.json se verá algo parecido a esto:</br>
 
 ```json
 {
@@ -11,7 +11,7 @@ Al iniciar nuestro proyecto, nuestro package.json se verá algo parecido a esto:
   "description": "Esto es una descripcion",
   "main": "index.js",
   "scripts": {
-    "test": "test \n"""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "ejemplo",
@@ -81,7 +81,7 @@ Node reserva los scripts start, restart y stop por lo que podremos utilizarlos s
 
 ### Scripts pre y post
 
-Además tambien podremos setear scripts que se ejecuten siempre antes o despues de un script en especifico de manera automatica. Para ello solo tendremos que seguir el formato:</br>
+Además tambien podremos setear scripts que se ejecuten siempre antes o despues de un script en especifico de manera automática. Para ello solo tendremos que seguir el formato:</br>
 
 `"preNombre": "comando a ejecutar antes del script Nombre"`</br>
 `"Nombre": "comando a ejecutar"`</br>
@@ -94,7 +94,7 @@ De esta forma, al ejecutar `npm run Nombre` se ejecutará preNombre, Nombre y po
 
 ## Dependencias
 
-Que las dependencias esten reflejadas en el package.json nos permitirá descargar un proyecto sin sus dependencias instaladas (sin tener la carpeta /node_modules) utilizando `npm install`, lo que nos dará una salida similar a esta:</br>
+Que las dependencias esten reflejadas en el package.json nos permitirá descargar un proyecto sin sus dependencias instaladas (sin tener la carpeta /node_modules) y que tan solo utilizando `npm install` nos instale todas las dependencias necesarias, lo que nos dará una salida similar a esta:</br>
 ![EjemploSalidaNpmInstall](https://i.gyazo.com/acb1957894c3ebffb208fbc81715765a.png)
 
 ## Importancia de la licencias

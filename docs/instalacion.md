@@ -1,25 +1,25 @@
 # Instalación de Node y NPM
 
-## Instalacion
+## Instalación
 
 !!! warning
-    Cada distribucion de linux es un mundo, aqui solo veremos como instalarlo en un equipo con el gestor de paquetes apt o con el gestor de paquetes pacman, aunque será muy similar la instalación en cualquier equipo linux.
+    Cada distribución de linux es un mundo, aqui solo veremos como instalarlo en un equipo con el gestor de paquetes apt o con el gestor de paquetes pacman, aunque será muy similar la instalación en cualquier equipo linux.
 
 Para instalar nodeJs en linux, podremos instalarlo mediante apt o pacman sin problemas.
 
-En Ubuntu o cualquier distro con apt utilizaremos</br>
+En Ubuntu o cualquier distro con apt utilizaremos:</br>
 
     $ sudo apt install nodejs
 
     $ sudo apt install npm
 
-En Arch utilizaremos el mismo comando pero utilizando pacman</br>
+En Arch utilizaremos el mismo comando pero utilizando pacman:</br>
 
     $ sudo pacman -S nodejs
 
     $ sudo pacman -S npm
 
-Para comprobar la version que tenemos de node o npm podremos utilizar los comandos</br>
+Para comprobar la version que tenemos de node o npm podremos utilizar los comandos:</br>
 
     $ node -v
 
@@ -29,9 +29,9 @@ Para comprobar la version que tenemos de node o npm podremos utilizar los comand
 
     $ npm --version
 
-## Desinstalacion
+## Desinstalación
 
-Para desinstalar node y nom solo tendremos que utlizar el siguiente comando </br>
+Para desinstalar node y npm solo tendremos que utlizar el siguiente comando:</br>
 
     $ sudo apt-get remove nodejs
 
@@ -39,13 +39,13 @@ Para desinstalar node y nom solo tendremos que utlizar el siguiente comando </br
 
 ## Controla que version exacta usas con NVM
 
-Si quisieramos poder cambiar la version de node en cualquier momento podemos utilizar la herramienta nvm
+Si quisieramos poder cambiar la version de node en cualquier momento deberemos de utilizar la herramienta nvm
 
 Para instalar nvm necesitaremos previamente wget</br>
 Podemos comprobar si tenemos wget instalado simplemente escribiendo `wget` en la consola.</br>
-En caso de no tener wget, se instalara con
+En caso de no tener wget, se instalará con:
 
-    $ sudo apt isntall wget
+    $ sudo apt install wget
 
     $ sudo pacman -S wget
 
@@ -67,6 +67,6 @@ Para desinstalar node en caso que quisieramos primero tendremos que desactivar n
 
     $ nvm deactivate
 
-Y desisntalar las versiones de node que utilizemos con:</br>
+Y desinstalar las versiones de node que utilizemos con:</br>
 
     $ nvm uninstall ${numeroVersion}

@@ -5,21 +5,21 @@
 Este taller forma parte de las actividades del [Aula de Software Libre de la
 Universidad de Córdoba](https://www.uco.es/aulasoftwarelibre).
 
-El contenido de este taller se basa en experiencia propia propia y en las referencias que pueden encontrarse en la seccion de [Referencias](https://aulasoftwarelibre.github.io/taller-nodeJs/referencias)
+El contenido de este taller se basa en experiencia propia y en las referencias que pueden encontrarse en la sección de [Referencias](https://aulasoftwarelibre.github.io/taller-nodeJs/referencias)
 
 !!! warning
-    Este taller no debe de verse como un curso de programacion. No vas a aprender a programar JavaScript o TypeScript en este taller.
+    Este taller no debe de verse como un curso de programación. No vas a aprender a programar JavaScript o TypeScript en este taller.
 
 !!! info
     Será introductorio a la herramienta node para que después de tener estos conocimientos puedas utilizar la herramienta en tus propios desarollos.
 
 ## Contenidos
 
-* ¿Qué es NodeJS y para que nos sirve?
+* Introduccion: ¿Qué es NodeJs y para que nos sirve?
 * Instalación de Node y NPM
-* Crear nuestro primer proyecto en NodeJS
+* Crear nuestro primer proyecto en NodeJs
 * Todo lo que debes saber del archivo package.json
-* Paquetes NPM ¡Reutiliza los avances de la comunidad!
+* Paquetes NPM - Reutiliza los avances de la comunidad
 
 > * Ejemplos de paquetes NPM
 >
@@ -29,7 +29,7 @@ El contenido de este taller se basa en experiencia propia propia y en las refere
 >
 > > Angular / React / Vue / Express
 
-* Mencion especial al paquete de TypeScript
+* Mención especial al paquete de TypeScript
 
 ## Agradecimientos
 

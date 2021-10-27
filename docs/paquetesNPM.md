@@ -51,7 +51,7 @@ Si queremos instalar un paquete de manera global en nuestro equipo utilizaremos 
 
     $ npm install nombre -g
 
-Una vez instalemos algun paquete npm aparecerá una carpeta `./node_modules` en nuestro proyecto y se registrará el modulo utilizado en nuestro fichero `package.json`.</br>
+Una vez instalemos algún paquete npm este aparecerá en una carpeta llamada `./node_modules` en nuestro proyecto y se registrará el modulo utilizado en nuestro fichero `package.json`.</br>
 
 ## Utilizar un paquete NPM en nuestra aplicacion
 

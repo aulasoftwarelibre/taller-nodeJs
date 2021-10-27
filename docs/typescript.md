@@ -1,6 +1,6 @@
-# Mencion especial a TypeScript
+# Mención especial a TypeScript
 
-Como mencion especial, decir que NodeJS tambien es compatible con TypeScript, por lo que podremos desarrollar nuestros proyectos de manera segura y tipada con typescript y luego correrlos en un entorno de nodejs como si de javascript se tratase.
+Como mención especial, decir que NodeJs tambien es compatible con TypeScript, por lo que podremos desarrollar nuestros proyectos de manera segura y tipada con typescript y luego correrlos en un entorno de nodejs como si de javascript se tratase.
 
 !!! info
     TypeScript fue desarrollado por Microsoft en 2012. Typescript **NO** es un lenguaje de programacion en si mismo, si no que es un superset que añadido a JavaScript forma TypeScript. Por este motivo TypeScript necesita ser compilado en JavaScript para correr correctamente.
