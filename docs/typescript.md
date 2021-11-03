@@ -49,7 +49,7 @@ Y configuraremos algunas cosas del `package.json`:</br>
 
 ```
 
-De esta forma cuando podremos programar nuestra aplicacion utilizando typescript y cuando ejecutemos npm start se autocompilara.
+De esta forma podremos programar nuestra aplicación utilizando typescript y cuando ejecutemos npm start se autocompilara.
 
 Este seria el codigo en index.ts por ejemplo:</br>
 

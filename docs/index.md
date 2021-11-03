@@ -11,11 +11,11 @@ El contenido de este taller se basa en experiencia propia y en las referencias q
     Este taller no debe de verse como un curso de programación. No vas a aprender a programar JavaScript o TypeScript en este taller.
 
 !!! info
-    Será introductorio a la herramienta node para que después de tener estos conocimientos puedas utilizar la herramienta en tus propios desarollos.
+    Será introductorio a la herramienta node para que después de tener estos conocimientos puedas utilizar la herramienta en tus propios desarrollos.
 
 ## Contenidos
 
-* Introduccion: ¿Qué es NodeJs y para que nos sirve?
+* Introducción: ¿Qué es NodeJs y para que nos sirve?
 * Instalación de Node y NPM
 * Crear nuestro primer proyecto en NodeJs
 * Todo lo que debes saber del archivo package.json
